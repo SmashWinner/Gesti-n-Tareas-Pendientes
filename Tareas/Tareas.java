@@ -1,7 +1,6 @@
 package Tareas;
 
 public class Tareas {
-    
     private String nombre;
     private String descripcion;
     private int prioridad;
@@ -37,7 +36,6 @@ public class Tareas {
     public String toString(){
         return "Nombre: " + this.nombre + "\nDescripción: " + this.descripcion + "\nPrioridad: " + this.prioridad + "\nCompletada: " + this.completada;
     }
-    
 
     
 }

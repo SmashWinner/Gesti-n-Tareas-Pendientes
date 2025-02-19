@@ -3,7 +3,7 @@ import java.util.Scanner;
 import Tareas.*;
 import Systema.*;
 public class Main{
-    public static void main(String[] args){
+    public static void main(String[] args) {
         boolean seguirir = true;
         Scanner sc = new Scanner(System.in);
         Systema sistema = new Systema();
@@ -67,6 +67,7 @@ public class Main{
                 break;
             case 5:
                 System.out.println("Salir");
+                System.out.println("Gracias por usar el sistema de tareas pendientes");
                 seguirir = false;
                 break;
             default:
